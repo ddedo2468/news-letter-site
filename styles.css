@@ -1,0 +1,72 @@
+body{
+  background: rgb(83,69,144);
+background: linear-gradient(90deg, rgba(83,69,144,1) 0%, rgba(86,77,142,1) 49%, rgba(88,80,141,1) 83%, rgba(89,82,140,1) 100%);
+
+}
+
+.container {
+  background-color: #231d34;
+  border: 1px solid black;
+  width:500px;
+  height: 350px;
+  margin: 200px auto;
+  color: white;
+  border-radius: 40px;
+  text-align: center;
+}
+
+.mail-img {
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin: 30px auto;
+  margin-top: 50px;
+}
+
+.head-text {
+  font-size: 24px;
+  color: #d9d4e5;
+}
+
+.text{
+  font-size: 16px;
+  color: #9892a8;
+}
+
+.input-email {
+  margin-top: 30px;
+  width: 250px;
+  height: 40px;
+  line-height: 24px;
+  background-color: #1b162a;
+  border: 0px solid #1b162a;
+  border-radius: 30px;
+  padding-left: 20px;
+  color: white;
+  outline: 0px;
+}
+
+.btn-join {
+  width: 100px;
+  height: 45px;
+  background-color: #634df0;
+  border: 1px solid #1b162a;
+  border-radius: 30px;
+  margin-left: -75px;
+}
+
+.input-email:active {
+  border: none;
+}
+
+/* ---------- Looking nice button ---------- */
+
+.btn-join:hover {
+  transition-duration: 0.1s;
+  background-color: #4937bc;
+  cursor:pointer;
+}
+
+.btn-join:active {
+  margin-top: 33px;
+}
